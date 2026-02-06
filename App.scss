@@ -1,0 +1,128 @@
+// // Additional styles for the application
+
+// // Typography
+// h1, h2, h3, h4, h5, h6 {
+//   margin-bottom: 0.5rem;
+//   font-weight: 600;
+//   line-height: 1.2;
+// }
+
+// h1 {
+//   font-size: 2rem;
+// }
+
+// h2 {
+//   font-size: 1.5rem;
+// }
+
+// h3 {
+//   font-size: 1.25rem;
+// }
+
+// p {
+//   margin-bottom: 1rem;
+//   line-height: 1.5;
+// }
+
+// // Spacing utilities
+// .container {
+//   max-width: 1400px;
+//   margin: 0 auto;
+//   padding: 0 1rem;
+// }
+
+// // Common spacing
+// .space-y-1 > * + * {
+//   margin-top: 0.25rem;
+// }
+
+// .space-y-2 > * + * {
+//   margin-top: 0.5rem;
+// }
+
+// .space-y-4 > * + * {
+//   margin-top: 1rem;
+// }
+
+// .space-y-6 > * + * {
+//   margin-top: 1.5rem;
+// }
+
+// // Cards and panels
+// .panel {
+//   background: hsl(var(--color-card));
+//   border: 1px solid hsl(var(--color-border));
+//   border-radius: 0.5rem;
+//   padding: 1rem;
+//   margin-bottom: 1rem;
+// }
+
+// // Form elements spacing
+// .form-group {
+//   margin-bottom: 1rem;
+// }
+
+// label {
+//   display: block;
+//   margin-bottom: 0.25rem;
+//   font-weight: 500;
+//   font-size: 0.875rem;
+// }
+
+// // Lists
+// ul, ol {
+//   margin-bottom: 1rem;
+//   padding-left: 1.5rem;
+// }
+
+// li {
+//   margin-bottom: 0.25rem;
+// }
+
+// // Flex utilities for layout
+// .flex-center {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .flex-between {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
+// // Text utilities
+// .text-center {
+//   text-align: center;
+// }
+
+// .text-right {
+//   text-align: right;
+// }
+
+// // Page layout
+// #root {
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// // Footer animations
+// .shine {
+//   background: linear-gradient(90deg, #aaa 0%, #fff 50%, #aaa 100%);
+//   background-size: 200% auto;
+//   background-clip: text;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   animation: shine 3s linear infinite;
+// }
+
+// @keyframes shine {
+//   0% {
+//     background-position: 200% center;
+//   }
+//   100% {
+//     background-position: -200% center;
+//   }
+// }
