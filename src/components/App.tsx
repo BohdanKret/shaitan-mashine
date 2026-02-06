@@ -187,12 +187,6 @@ const App = () => {
     setIsSkuSearchMode(false); // ← додай це
   };
   useEffect(() => {
-    if (isSkuSearchMode) {
-      setIsSkuSearchMode(false);
-    }
-  }, [spActive, t1Active, t2Active, t3Active, brandActive, isSkuSearchMode]);
-
-  useEffect(() => {
     setT2Active("");
   }, [t1Active]);
   useEffect(() => {

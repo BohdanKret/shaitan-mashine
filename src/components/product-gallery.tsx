@@ -47,12 +47,12 @@ export default function ProductGallery({
                 {item.name}
               </CardTitle>
               <CardDescription className="mt-2 text-sm text-gray-700 dark:text-gray-300">
-                <p>
+                <div>
                   <strong>SKU:</strong> {item.sku}
-                </p>
-                <p>
+                </div>
+                <div>
                   <strong>Бренд:</strong> {item.brand}
-                </p>
+                </div>
               </CardDescription>
             </CardContent>
           </Card>
