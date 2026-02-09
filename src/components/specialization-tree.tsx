@@ -46,6 +46,10 @@ export default function SpecializationTree({
           onClick={() => {
             if (!node.disabled)
               onChange((prev) => (prev === node.value ? "" : node.value));
+
+            if (hasChildren) {
+              toggleExpanded(node.value);
+            }
           }}
         >
           {hasChildren ? (
